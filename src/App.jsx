@@ -500,6 +500,7 @@ export default function Portfolio() {
           <div className="hero-cta">
             <button className="btn btn-primary" onClick={() => scrollTo("experience")}>View Experience →</button>
             <button className="btn btn-outline" onClick={() => scrollTo("contact")}>Get in Touch</button>
+            <a className="btn btn-outline" href="/cv.pdf" download="Kwaku_Jackity_Ayim_CV.pdf">Download CV ↓</a>
           </div>
         </div>
 
