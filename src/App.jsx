@@ -508,7 +508,9 @@ export default function Portfolio() {
           <div className="profile-frame">
             <div className="profile-bg" />
             <div className="profile-card">
-              <div className="avatar">KA</div>
+              <div className="avatar">
+                <img src="/avatar.jpg" alt="Kwaku Ayim" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "50%" }} />
+              </div>
               <div className="profile-name">Kwaku Jackity Ayim</div>
               <div className="profile-role">IT Support & Software Engineer</div>
               <div className="profile-badges">
